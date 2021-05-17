@@ -39,10 +39,10 @@ public class ZipCodeServiceImpl implements ZipCodeService{
 		
 		ZipCodeDTO zipCodeDTO = new ZipCodeDTO();
 		
-		zipCodeDTO.setZipCode(zipCodeBO.getDCodigo());
-		zipCodeDTO.setLocality(zipCodeBO.getDCiudad());
-		zipCodeDTO.setFederalEntity(zipCodeBO.getCEstado());
-		zipCodeDTO.setMunicipality(zipCodeBO.getDmnpio());
+		zipCodeDTO.setZipCode(zipCodeBO.getdCodigo());
+		zipCodeDTO.setLocality(zipCodeBO.getdCiudad());
+		zipCodeDTO.setFederalEntity(zipCodeBO.getcEstado());
+		zipCodeDTO.setMunicipality(zipCodeBO.getcMnpio());
 		zipCodeDTO.setSettlementsDTO(getSettlementsDTO(zipCodeBO));
 		
 		
@@ -54,9 +54,9 @@ public class ZipCodeServiceImpl implements ZipCodeService{
 		
 		SettlementsDTO settlementsDTO = new SettlementsDTO();
 		
-		settlementsDTO.setName(zipCodeBO.getDAsenta());
+		settlementsDTO.setName(zipCodeBO.getdAsenta());
 		settlementsDTO.setSettlementType(zipCodeBO.getIdAsentaCpcons());
-		settlementsDTO.setZoneType(zipCodeBO.getDTipoAsenta());
+		settlementsDTO.setZoneType(zipCodeBO.getdTipoAsenta());
 		
 		return settlementsDTO;
 	}

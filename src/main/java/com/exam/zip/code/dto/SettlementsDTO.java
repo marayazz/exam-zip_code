@@ -1,10 +1,5 @@
 package com.exam.zip.code.dto;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
 public class SettlementsDTO {
 	
 	private String name;
@@ -20,6 +15,30 @@ public class SettlementsDTO {
 		super();
 		this.name = name;
 		this.zoneType = zoneType;
+		this.settlementType = settlementType;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getZoneType() {
+		return zoneType;
+	}
+
+	public void setZoneType(String zoneType) {
+		this.zoneType = zoneType;
+	}
+
+	public String getSettlementType() {
+		return settlementType;
+	}
+
+	public void setSettlementType(String settlementType) {
 		this.settlementType = settlementType;
 	}
 	

@@ -7,11 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
 @Entity
 @Table(name = "ZIPCODE")
 public class ZipCodeBO implements Serializable{
@@ -81,6 +77,146 @@ public class ZipCodeBO implements Serializable{
 		this.cTipoAsenta = cTipoAsenta;
 		this.cMnpio = cMnpio;
 		this.idAsentaCpcons = idAsentaCpcons;
+		this.dZona = dZona;
+	}
+
+
+	public String getdCodigo() {
+		return dCodigo;
+	}
+
+
+	public void setdCodigo(String dCodigo) {
+		this.dCodigo = dCodigo;
+	}
+
+
+	public String getdAsenta() {
+		return dAsenta;
+	}
+
+
+	public void setdAsenta(String dAsenta) {
+		this.dAsenta = dAsenta;
+	}
+
+
+	public String getdTipoAsenta() {
+		return dTipoAsenta;
+	}
+
+
+	public void setdTipoAsenta(String dTipoAsenta) {
+		this.dTipoAsenta = dTipoAsenta;
+	}
+
+
+	public String getDmnpio() {
+		return dmnpio;
+	}
+
+
+	public void setDmnpio(String dmnpio) {
+		this.dmnpio = dmnpio;
+	}
+
+
+	public String getdEstado() {
+		return dEstado;
+	}
+
+
+	public void setdEstado(String dEstado) {
+		this.dEstado = dEstado;
+	}
+
+
+	public String getdCiudad() {
+		return dCiudad;
+	}
+
+
+	public void setdCiudad(String dCiudad) {
+		this.dCiudad = dCiudad;
+	}
+
+
+	public String getdCp() {
+		return dCp;
+	}
+
+
+	public void setdCp(String dCp) {
+		this.dCp = dCp;
+	}
+
+
+	public String getcEstado() {
+		return cEstado;
+	}
+
+
+	public void setcEstado(String cEstado) {
+		this.cEstado = cEstado;
+	}
+
+
+	public String getcOficina() {
+		return cOficina;
+	}
+
+
+	public void setcOficina(String cOficina) {
+		this.cOficina = cOficina;
+	}
+
+
+	public String getcCP() {
+		return cCP;
+	}
+
+
+	public void setcCP(String cCP) {
+		this.cCP = cCP;
+	}
+
+
+	public String getcTipoAsenta() {
+		return cTipoAsenta;
+	}
+
+
+	public void setcTipoAsenta(String cTipoAsenta) {
+		this.cTipoAsenta = cTipoAsenta;
+	}
+
+
+	public String getcMnpio() {
+		return cMnpio;
+	}
+
+
+	public void setcMnpio(String cMnpio) {
+		this.cMnpio = cMnpio;
+	}
+
+
+	public String getIdAsentaCpcons() {
+		return idAsentaCpcons;
+	}
+
+
+	public void setIdAsentaCpcons(String idAsentaCpcons) {
+		this.idAsentaCpcons = idAsentaCpcons;
+	}
+
+
+	public String getdZona() {
+		return dZona;
+	}
+
+
+	public void setdZona(String dZona) {
 		this.dZona = dZona;
 	}
 
