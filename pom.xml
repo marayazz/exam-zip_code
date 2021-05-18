@@ -55,10 +55,10 @@
 
 	<build>
 	    <plugins>
-        <plugin>
+       <plugin>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-maven-plugin</artifactId>
-            <version>1.9.88</version>
+            <version>1.9.9</version>
         </plugin>
     	<plugin>
 				<groupId>org.springframework.boot</groupId>
