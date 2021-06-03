@@ -20,7 +20,10 @@ public class ZipCodeController {
 	@GetMapping(value = "/zip-codes/{zipCode}")
 	public ResponseEntity<?> getZipCode(@PathVariable String zipCode){
 		
+		System.out.println(zipCode);
+		
 		return zipCodeService.getZipCode(zipCode);
+		
 		
 	}
 }
