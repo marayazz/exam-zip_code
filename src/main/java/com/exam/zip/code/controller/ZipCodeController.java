@@ -10,10 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.exam.zip.code.service.ZipCodeService;
 
-/*
- * Voy agregar algo para llevarlo a master
- */
-
 @RestController
 @CrossOrigin
 public class ZipCodeController {
